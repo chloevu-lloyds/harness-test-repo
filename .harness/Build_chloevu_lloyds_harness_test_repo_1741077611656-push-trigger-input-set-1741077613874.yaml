@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_chloevu_lloyds_harness_test_repo_1741077611656-push-trigger-input-set
+  identifier: Build_chloevu_lloyds_harness_test_repo_1741077611656pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: corebot
+  pipeline:
+    identifier: Build_chloevu_lloyds_harness_test_repo_1741077611656
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
