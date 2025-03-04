@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_chloevu_lloyds_harness_test_repo_1741077478794-pr-trigger-input-set
+  identifier: Build_chloevu_lloyds_harness_test_repo_1741077478794prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_chloevu_lloyds_harness_test_repo_1741077478794
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
